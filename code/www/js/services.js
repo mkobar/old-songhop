@@ -1,22 +1,10 @@
 angular.module('songhop.services', [])
 
-.factory('User', function ($http, SERVER) {
-var o = {
-username: false,
-session_id: false,
-favorites: [ ],
-newFavorites: 0
-}
-// attempt login or signup
-o.auth = function(username, signingUp) {
-var authRoute;
-if (signingUp) {
-authRoute = 'signup';
-} else {
-authRoute = 'login'
-}
-return $http.post(SERVER.url + '/' + authRoute, {username: username});
-}
+.factory('User', function () {
+    
+    var o = {
+        favorites: [ ]
+    }
     
     o.addSongToFavorites = function (song) {
         if (!song) return false;
