@@ -6,16 +6,16 @@ Log out
 </ion-nav-buttons>
   <ion-content>
 
-    <ion-list>
-      <ion-item ng-repeat="song in favorites" class="item-avatar">
+    <ion-list show-delete="1">
+      <ion-item ng-repeat="song in favorites" class="item-avatar" ng-click="openSong(song)">
         <img ng-src="{{song.image_small}}">
         <h2>{{song.title}}</h2>
         <p>{{song.artist}}</p>
         
-        <ion-option-button class="button-assertive"
+
+        <ion-delete-button class="ion-minus-circled"
                        ng-click="removeSong(song, $index)">
-          <i class="ion-minus-circled"></i>
-        </ion-option-button>
+        </ion-delete-button>
       </ion-item>
     </ion-list>
     

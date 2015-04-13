@@ -114,10 +114,9 @@ Controller for the favorites page
        $window.open(song.open_url, "_system");  // open in browser
     };
     
-     $scope.removeSong = function(song, index) {
-    User.removeSongFromFavorites(song, index);
-  };
-    
+    $scope.removeSong = function(song, index) {
+       User.removeSongFromFavorites(song, index);
+    };
 
 })
 

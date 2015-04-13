@@ -5,9 +5,9 @@
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "10945d4a-6254-4ab0-b705-138691881f3d",
-      "lastModifiedDate": 1428806239183,
-      "creationDate": 1428803343032
+      "projectGuid": "78688388-34e8-4de7-9564-3257fe9768fc",
+      "lastModifiedDate": 1428843330690,
+      "creationDate": 1428803680661
     },
     "sourceDirectory": "www",
     "cordovaPluginsDirectory": "plugins",
@@ -50,7 +50,7 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -76,7 +76,7 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -101,7 +101,7 @@
           "ios-configuration": "adhoc"
         },
         "isActive_": true,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -122,7 +122,7 @@
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -142,7 +142,7 @@
         "name_": "WebApp",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -161,7 +161,7 @@
         "name_": "Firefox",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -180,7 +180,7 @@
         "name_": "Chrome",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {
@@ -199,7 +199,7 @@
         "name_": "Facebook",
         "preferences_": {},
         "isActive_": false,
-        "appName_": "songhop1",
+        "appName_": "songhop-old",
         "appID_": "not.yet.specified",
         "appAccess_": [
           {

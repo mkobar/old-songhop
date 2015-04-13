@@ -40,7 +40,7 @@ angular.module('songhop.services', ['ionic.utils'])
        // remove from favorites array
        o.favorites.splice(index, 1);
 
-       // persist this to the server
+       // remove this from the server
        return $http({
          method: 'DELETE',
          url: SERVER.url + '/favorites',
